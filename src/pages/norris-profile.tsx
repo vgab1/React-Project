@@ -29,7 +29,7 @@ export function LandoNorrisPage() {
             <h1 className="text-5xl font-bold mt-2">Lando Norris</h1>
           </div>
           <div className="flex flex-col md:w-1/2">
-            <img src={LandoHelmet} alt="Oscar Helmet" className="w-60 p-5" />
+            <img src={LandoHelmet} alt="Lando Helmet" className="w-60 p-5" />
             <div className="mt-4 grid grid-cols-2 gap-4 text-lg">
               <p className="font-bold">Team:</p>
               <p>McLaren</p>
