@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import Lando from "../assets/norris.avif";
-import Oscar from "../assets/piastri.avif";
+import Lando from "../assets/drivers/norris.avif";
+import Oscar from "../assets/drivers/piastri.avif";
 
 export function Drivers() {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import { Header } from "../components/header";
-import Lando from "../assets/norris.avif";
-import LandoHelmet from "../assets/norris-helmet.avif";
-import UKFlag from "../assets/united-kingdom-flag.avif";
+import Lando from "../assets/drivers/norris.avif";
+import LandoHelmet from "../assets/helmets/norris-helmet.avif";
+import UKFlag from "../assets/country/united-kingdom-flag.avif";
 
 export function LandoNorrisPage() {
   return (
