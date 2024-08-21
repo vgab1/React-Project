@@ -26,9 +26,9 @@ export function Header() {
         <img src={Haas} alt="Haas" className="w-24 rounded-md" />
         <img src={Sauber} alt="Sauber" className="w-24 rounded-md" />
         <img src={McLaren} onClick={() => navigate("/")} alt="McLaren" className="w-24 rounded-md" />
-        <img src={Mercedes} alt="Mercedes" className="w-24 rounded-md" />
-        <img src={Rb} alt="Red Bull" className="w-24 rounded-md" />
-        <img src={Redbull} alt="Red Bull" className="w-24 rounded-md" />
+        <img src={Mercedes} alt="Mercedes" onClick={() => navigate("/teams/mercedes")} className="w-24 rounded-md" />
+        <img src={Rb} alt="RB" className="w-24 rounded-md" />
+        <img src={Redbull} alt="Red Bull Racing" onClick={() => navigate("/teams/redbull")} className="w-24 rounded-md" />
         <img src={Williams} alt="Williams" className="w-24 rounded-md" />
       </div>
     </div>

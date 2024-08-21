@@ -19,7 +19,7 @@ export function OscarPiastriPage() {
               />
             </div>
             <div className="flex items-center mt-4 space-x-2">
-              <p className="text-zinc-400 text-5xl font-bold font-mono">81</p>
+              <p className="text-zinc-500 text-5xl font-bold font-mono">81</p>
               <img
                 src={AustraliaFlag}
                 alt="Australia Flag"
