@@ -1,32 +1,32 @@
-import McLaren from "../assets/teams/mclaren-logo.avif";
+import Sauber from "../../assets/teams/kick-sauber.avif";
 
-export function TeamInfo() {
+export function SauberTeam() {
   return (
     <div>
-      <img src={McLaren} alt="McLaren Logo" className="w-60 mb-4" />
+      <img src={Sauber} alt="Sauber Logo" className="w-60 mb-4" />
       <div className="grid grid-cols-2 gap-4 text-lg">
         <p className="font-bold">Full Team Name:</p>
-        <p>McLaren Formula 1 Team</p>
+        <p>Stake F1 Team Kick Sauber</p>
         <p className="font-bold">Base:</p>
-        <p>Woking, United Kingdom</p>
+        <p>Hinwil, Switzerland</p>
         <p className="font-bold">Team Chief:</p>
-        <p>Andrea Stella</p>
+        <p>Alessandro Alunni Bravi</p>
         <p className="font-bold">Technical Chief:</p>
-        <p>Peter Prodromou / Neil Houldey</p>
+        <p>James Key</p>
         <p className="font-bold">Chassis:</p>
-        <p>MCL38</p>
+        <p>C44</p>
         <p className="font-bold">Power Unit:</p>
-        <p>Mercedes</p>
+        <p>Ferrari</p>
         <p className="font-bold">First Team Entry:</p>
-        <p>1966</p>
+        <p>1993</p>
         <p className="font-bold">World Championships:</p>
-        <p>8</p>
+        <p>0</p>
         <p className="font-bold">Highest Race Finish:</p>
-        <p>1 (x185)</p>
+        <p>1 (x1)</p>
         <p className="font-bold">Pole Positions:</p>
-        <p>159</p>
+        <p>1</p>
         <p className="font-bold">Fastest Laps:</p>
-        <p>167</p>
+        <p>7</p>
       </div>
     </div>
   );

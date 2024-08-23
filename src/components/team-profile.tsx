@@ -1,4 +1,4 @@
-import Car from "../assets/mclaren-car.avif";
+import Car from "../assets/cars/mclaren-car.avif";
 
 export function TeamProfile() {
   return (

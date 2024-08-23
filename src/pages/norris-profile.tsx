@@ -1,7 +1,7 @@
 import { Header } from "../components/header";
-import Lando from "../assets/norris.avif";
-import LandoHelmet from "../assets/norris-helmet.avif";
-import UKFlag from "../assets/united-kingdom-flag.avif";
+import Lando from "../assets/drivers/norris.avif";
+import LandoHelmet from "../assets/helmets/norris-helmet.avif";
+import UKFlag from "../assets/country/united-kingdom-flag.avif";
 
 export function LandoNorrisPage() {
   return (
@@ -19,7 +19,7 @@ export function LandoNorrisPage() {
               />
             </div>
             <div className="flex items-center mt-4 space-x-2">
-              <p className="text-zinc-400 text-5xl font-bold font-mono">4</p>
+              <p className="text-zinc-500 text-5xl font-bold font-mono">4</p>
               <img
                 src={UKFlag}
                 alt="United Kingdom Flag"

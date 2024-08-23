@@ -1,32 +1,32 @@
-import McLaren from "../assets/teams/mclaren-logo.avif";
+import Alpine from "../../assets/teams/alpine.avif";
 
-export function TeamInfo() {
+export function AlpineTeam() {
   return (
     <div>
-      <img src={McLaren} alt="McLaren Logo" className="w-60 mb-4" />
+      <img src={Alpine} alt="Alpine Logo" className="w-60 mb-4" />
       <div className="grid grid-cols-2 gap-4 text-lg">
         <p className="font-bold">Full Team Name:</p>
-        <p>McLaren Formula 1 Team</p>
+        <p>BWT Alpine F1 Team</p>
         <p className="font-bold">Base:</p>
-        <p>Woking, United Kingdom</p>
+        <p>Enstone, United Kingdom</p>
         <p className="font-bold">Team Chief:</p>
-        <p>Andrea Stella</p>
+        <p>Oliver Oakes</p>
         <p className="font-bold">Technical Chief:</p>
-        <p>Peter Prodromou / Neil Houldey</p>
+        <p>David Sanchez</p>
         <p className="font-bold">Chassis:</p>
-        <p>MCL38</p>
+        <p>A524</p>
         <p className="font-bold">Power Unit:</p>
-        <p>Mercedes</p>
+        <p>Renault</p>
         <p className="font-bold">First Team Entry:</p>
-        <p>1966</p>
+        <p>1986</p>
         <p className="font-bold">World Championships:</p>
-        <p>8</p>
+        <p>2</p>
         <p className="font-bold">Highest Race Finish:</p>
-        <p>1 (x185)</p>
+        <p>1 (x21)</p>
         <p className="font-bold">Pole Positions:</p>
-        <p>159</p>
+        <p>20</p>
         <p className="font-bold">Fastest Laps:</p>
-        <p>167</p>
+        <p>15</p>
       </div>
     </div>
   );

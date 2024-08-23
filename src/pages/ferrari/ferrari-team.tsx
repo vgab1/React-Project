@@ -1,32 +1,32 @@
-import McLaren from "../assets/teams/mclaren-logo.avif";
+import Ferrari from "../../assets/teams/ferrari-logo.avif";
 
-export function TeamInfo() {
+export function FerrariTeam() {
   return (
     <div>
-      <img src={McLaren} alt="McLaren Logo" className="w-60 mb-4" />
+      <img src={Ferrari} alt="Ferrari Logo" className="w-60 mb-4" />
       <div className="grid grid-cols-2 gap-4 text-lg">
         <p className="font-bold">Full Team Name:</p>
-        <p>McLaren Formula 1 Team</p>
+        <p>Scuderia Ferrari</p>
         <p className="font-bold">Base:</p>
-        <p>Woking, United Kingdom</p>
+        <p>Maranello, Italy</p>
         <p className="font-bold">Team Chief:</p>
-        <p>Andrea Stella</p>
+        <p>Frédéric Vasseur</p>
         <p className="font-bold">Technical Chief:</p>
-        <p>Peter Prodromou / Neil Houldey</p>
+        <p>Enrico Gualtieri</p>
         <p className="font-bold">Chassis:</p>
-        <p>MCL38</p>
+        <p>SF-24</p>
         <p className="font-bold">Power Unit:</p>
-        <p>Mercedes</p>
+        <p>Ferrari</p>
         <p className="font-bold">First Team Entry:</p>
-        <p>1966</p>
+        <p>1950</p>
         <p className="font-bold">World Championships:</p>
-        <p>8</p>
+        <p>16</p>
         <p className="font-bold">Highest Race Finish:</p>
-        <p>1 (x185)</p>
+        <p>1 (x246)</p>
         <p className="font-bold">Pole Positions:</p>
-        <p>159</p>
+        <p>251</p>
         <p className="font-bold">Fastest Laps:</p>
-        <p>167</p>
+        <p>262</p>
       </div>
     </div>
   );

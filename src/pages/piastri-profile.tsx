@@ -1,7 +1,7 @@
 import { Header } from "../components/header";
-import Oscar from "../assets/piastri.avif";
-import OscarHelmet from "../assets/piastri-helmet.avif";
-import AustraliaFlag from "../assets/australia-flag.png";
+import Oscar from "../assets/drivers/piastri.avif";
+import OscarHelmet from "../assets/helmets/piastri-helmet.avif";
+import AustraliaFlag from "../assets/country/australia-flag.png";
 
 export function OscarPiastriPage() {
   return (
@@ -19,7 +19,7 @@ export function OscarPiastriPage() {
               />
             </div>
             <div className="flex items-center mt-4 space-x-2">
-              <p className="text-zinc-400 text-5xl font-bold font-mono">81</p>
+              <p className="text-zinc-500 text-5xl font-bold font-mono">81</p>
               <img
                 src={AustraliaFlag}
                 alt="Australia Flag"
