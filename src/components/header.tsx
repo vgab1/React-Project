@@ -12,7 +12,7 @@ import Williams from "../assets/teams/williams.avif";
 import { useNavigate } from "react-router-dom";
 
 export function Header() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div>
       <div className="bg-f1-red flex justify-center p-4 cursor-pointer">
@@ -20,16 +20,66 @@ export function Header() {
       </div>
 
       <div className="flex items-center justify-center gap-8 p-5 flex-wrap cursor-pointer">
-        <img src={Alpine} alt="Alpine" className="w-24 rounded-md" />
-        <img src={Aston} alt="Aston Martin" className="w-24 rounded-md" />
-        <img src={Ferrari} onClick={() => navigate("/teams/ferrari")} alt="Ferrari" className="w-24 rounded-md" />
-        <img src={Haas} alt="Haas" className="w-24 rounded-md" />
-        <img src={Sauber} alt="Sauber" className="w-24 rounded-md" />
-        <img src={McLaren} onClick={() => navigate("/")} alt="McLaren" className="w-24 rounded-md" />
-        <img src={Mercedes} alt="Mercedes" onClick={() => navigate("/teams/mercedes")} className="w-24 rounded-md" />
-        <img src={Rb} alt="RB" className="w-24 rounded-md" />
-        <img src={Redbull} alt="Red Bull Racing" onClick={() => navigate("/teams/redbull")} className="w-24 rounded-md" />
-        <img src={Williams} alt="Williams" className="w-24 rounded-md" />
+        <img
+          src={Alpine}
+          onClick={() => navigate("/teams/alpine")}
+          alt="Alpine"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Aston}
+          onClick={() => navigate("/teams/aston-martin")}
+          alt="Aston Martin"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Ferrari}
+          onClick={() => navigate("/teams/ferrari")}
+          alt="Ferrari"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Haas}
+          onClick={() => navigate("/teams/haas")}
+          alt="Haas"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Sauber}
+          onClick={() => navigate("/teams/kick-sauber")}
+          alt="Sauber"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={McLaren}
+          onClick={() => navigate("/")}
+          alt="McLaren"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Mercedes}
+          alt="Mercedes"
+          onClick={() => navigate("/teams/mercedes")}
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Rb}
+          onClick={() => navigate("/teams/rb")}
+          alt="RB"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Redbull}
+          onClick={() => navigate("/teams/red-bull-racing")}
+          alt="Red Bull Racing"
+          className="w-24 rounded-md"
+        />
+        <img
+          src={Williams}
+          onClick={() => navigate("/teams/williams")}
+          alt="Williams"
+          className="w-24 rounded-md"
+        />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import Mercedes from "../../assets/teams/mercedes.avif";
 export function MercedesTeam() {
   return (
     <div>
-      <img src={Mercedes} alt="McLaren Logo" className="w-60 mb-4" />
+      <img src={Mercedes} alt="Mercedes Logo" className="w-60 mb-4" />
       <div className="grid grid-cols-2 gap-4 text-lg">
         <p className="font-bold">Full Team Name:</p>
         <p>Mercedes-AMG PETRONAS F1 Team</p>

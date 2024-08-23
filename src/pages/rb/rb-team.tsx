@@ -1,32 +1,32 @@
-import Ferrari from "../../assets/teams/ferrari-logo.avif";
+import RB from "../../assets/teams/rb.avif";
 
-export function FerrariTeam() {
+export function RbTeam() {
   return (
     <div>
-      <img src={Ferrari} alt="Ferrari Logo" className="w-60 mb-4" />
+      <img src={RB} alt="McLaren Logo" className="w-60 mb-4" />
       <div className="grid grid-cols-2 gap-4 text-lg">
         <p className="font-bold">Full Team Name:</p>
-        <p>Scuderia Ferrari</p>
+        <p>Visa Cash App RB Formula One Team</p>
         <p className="font-bold">Base:</p>
-        <p>Maranello, Italy</p>
+        <p>Faenza, Italy</p>
         <p className="font-bold">Team Chief:</p>
-        <p>Frédéric Vasseur</p>
+        <p>Laurent Mekies</p>
         <p className="font-bold">Technical Chief:</p>
-        <p>Enrico Gualtieri</p>
+        <p>Jody Egginton</p>
         <p className="font-bold">Chassis:</p>
-        <p>SF-24</p>
+        <p>VCARB 01</p>
         <p className="font-bold">Power Unit:</p>
-        <p>Ferrari</p>
+        <p>Honda RBPT</p>
         <p className="font-bold">First Team Entry:</p>
-        <p>1950</p>
+        <p>1985</p>
         <p className="font-bold">World Championships:</p>
-        <p>16</p>
+        <p>0</p>
         <p className="font-bold">Highest Race Finish:</p>
-        <p>1 (x246)</p>
+        <p>1 (x2)</p>
         <p className="font-bold">Pole Positions:</p>
-        <p>251</p>
+        <p>1</p>
         <p className="font-bold">Fastest Laps:</p>
-        <p>262</p>
+        <p>3</p>
       </div>
     </div>
   );
