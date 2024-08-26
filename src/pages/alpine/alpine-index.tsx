@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { AlpineDrivers } from "./alpine-drivers";
 import { AlpineProfile } from "./alpine-profile";
 import { AlpineTeam } from "./alpine-team";
 
 export function AlpinePage() {
+  useEffect(() => {
+    document.title = "Alpine - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Carlos from "../../assets/drivers/sainz.avif";
 import CarlosHelmet from "../../assets/helmets/sainz-helmet.avif";
 import SpainFlag from "../../assets/country/spain-flag.avif";
 import { Header } from "../../components/header";
 
 export function CarlosSainzPage() {
+  useEffect(() => {
+    document.title = "Carlos Sainz - F1 Driver for Ferrari";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Drivers } from "../components/drivers";
 import { Header } from "../components/header";
 import { TeamInfo } from "../components/team-info";
 import { TeamProfile } from "../components/team-profile";
 
 export function McLarenPage() {
+  useEffect(() => {
+    document.title = "McLaren - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

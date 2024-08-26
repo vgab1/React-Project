@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Daniel from "../../assets/drivers/ricciardo.avif";
 import DanielHelmet from "../../assets/helmets/ricciardo-helmet.avif";
 import AustraliaFlag from "../../assets/country/australia-flag.png";
 import { Header } from "../../components/header";
 
 export function DanielRicciardoPage() {
+  useEffect(() => {
+    document.title = "Daniel Ricciardo - F1 Driver for RB";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { WilliamsDrivers } from "./williams-drivers";
 import { WilliamsProfile } from "./williams-profile";
 import { WilliamsTeam } from "./williams-team";
 
 export function WilliamsPage() {
+  useEffect(() => {
+    document.title = "Williams - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

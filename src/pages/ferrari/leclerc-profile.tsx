@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Charles from "../../assets/drivers/leclerc.avif";
 import CharlesHelmet from "../../assets/helmets/leclerc-helmet.avif";
 import MonacoFlag from "../../assets/country/monaco-flag.avif";
 import { Header } from "../../components/header";
 
 export function CharlesLeclercPage() {
+  useEffect(() => {
+    document.title = "Charles Leclerc - F1 Driver for Ferrari";
+  }, []);
   return (
     <div>
       <Header />

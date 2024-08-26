@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { FerrariDrivers } from "./ferrari-drivers";
 import { FerrariProfile } from "./ferrari-profile";
 import { FerrariTeam } from "./ferrari-team";
 
 export function FerrariPage() {
+  useEffect(() => {
+    document.title = "Ferrari - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

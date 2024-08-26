@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Valtteri from "../../assets/drivers/bottas.avif";
 import ValtterisHelmet from "../../assets/helmets/bottas-helmet.avif";
 import FinlandFlag from "../../assets/country/finland-flag.avif";
 import { Header } from "../../components/header";
 
 export function ValtteriBottasPage() {
+  useEffect(() => {
+    document.title = "Valtteri Bottas - F1 Driver for Stake F1 Team Kick Sauber";
+  }, []);
   return (
     <div>
       <Header />

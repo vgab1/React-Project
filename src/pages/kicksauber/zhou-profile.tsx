@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Zhou from "../../assets/drivers/zhou.avif";
 import ZhouHelmet from "../../assets/helmets/zhou-helmet.avif";
 import ChinaFlag from "../../assets/country/china-flag.avif";
 import { Header } from "../../components/header";
 
 export function ZhouGuanyuPage() {
+  useEffect(() => {
+    document.title = "Zhou Guanyu - F1 Driver for Stake F1 Team Kick Sauber";
+  }, []);
   return (
     <div>
       <Header />

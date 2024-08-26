@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Kevin from "../../assets/drivers/magnussen.avif";
 import KevinHelmet from "../../assets/helmets/magnussen-helmet.avif";
 import DenmarkFlag from "../../assets/country/denmark-flag.avif";
 import { Header } from "../../components/header";
 
 export function KevinMagnussenPage() {
+  useEffect(() => {
+    document.title = "Kevin Magnussen - F1 Driver for Haas";
+  }, []);
   return (
     <div>
       <Header />

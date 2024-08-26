@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { HaasDrivers } from "./haas-drivers";
 import { HaasProfile } from "./haas-profile";
 import { HaasTeam } from "./haas-team";
 
 export function HaasPage() {
+  useEffect(() => {
+    document.title = "Haas - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Lance from "../../assets/drivers/stroll.avif";
 import LanceHelmet from "../../assets/helmets/stroll-helmet.avif";
 import CanadaFlag from "../../assets/country/canada-flag.avif";
 import { Header } from "../../components/header";
 
 export function LanceStrollPage() {
+  useEffect(() => {
+    document.title = "Lance Stroll - F1 Driver for Aston Martin";
+  }, []);
   return (
     <div>
       <Header />

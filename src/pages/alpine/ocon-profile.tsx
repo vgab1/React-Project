@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Esteban from "../../assets/drivers/ocon.avif";
 import EstebanHelmet from "../../assets/helmets/ocon-helmet.avif";
 import FranceFlag from "../../assets/country/france-flag.avif";
 import { Header } from "../../components/header";
 
 export function EstebanOconPage() {
+  useEffect(() => {
+    document.title = "Esteban Ocon - F1 Driver for Alpine";
+  }, []);
   return (
     <div>
       <Header />
@@ -29,7 +33,11 @@ export function EstebanOconPage() {
             <h1 className="text-5xl font-bold mt-2">Esteban Ocon</h1>
           </div>
           <div className="flex flex-col md:w-1/2">
-            <img src={EstebanHelmet} alt="Esteban Helmet" className="w-60 p-5" />
+            <img
+              src={EstebanHelmet}
+              alt="Esteban Helmet"
+              className="w-60 p-5"
+            />
             <div className="mt-4 grid grid-cols-2 gap-4 text-lg">
               <p className="font-bold">Team:</p>
               <p>Alpine</p>

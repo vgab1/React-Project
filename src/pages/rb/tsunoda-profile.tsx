@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Yuki from "../../assets/drivers/tsunoda.avif";
 import YukiHelmet from "../../assets/helmets/tsunoda-helmet.avif";
 import JapanFlag from "../../assets/country/japan-flag.avif";
 import { Header } from "../../components/header";
 
 export function YukiTsunodaPage() {
+  useEffect(() => {
+    document.title = "Yuki Tsunoda - F1 Driver for RB";
+  }, []);
   return (
     <div>
       <Header />

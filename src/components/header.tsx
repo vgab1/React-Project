@@ -50,6 +50,7 @@ export function Header() {
           alt="Sauber"
           className="w-24 rounded-md"
         />
+
         <img
           src={McLaren}
           onClick={() => navigate("/")}

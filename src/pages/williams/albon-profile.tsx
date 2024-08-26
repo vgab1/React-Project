@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Alexander from "../../assets/drivers/albon.avif";
 import AlexanderHelmet from "../../assets/helmets/albon-helmet.avif";
 import ThailandFlag from "../../assets/country/thailand-flag.png";
 import { Header } from "../../components/header";
 
 export function AlexanderAlbonPage() {
+  useEffect(() => {
+    document.title = "Alexander Albon - F1 Driver for Williams";
+  }, []);
   return (
     <div>
       <Header />

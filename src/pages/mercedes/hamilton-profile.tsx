@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import Lewis from "../../assets/drivers/hamilton.avif";
 import UKFlag from "../../assets/country/united-kingdom-flag.avif";
 import LewisHelmet from "../../assets/helmets/hamilton-helmet.avif";
 
 export function LewisHamiltonPage() {
+  useEffect(() => {
+    document.title = "Lewis Hamilton - F1 Driver for Mercedes";
+  }, []);
   return (
     <div>
       <Header />

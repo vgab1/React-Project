@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { RedBullDrivers } from "./redbull-drivers";
 import { RedBullProfile } from "./redbull-profile";
 import { RedBullTeam } from "./redbull-team";
 
 export function RedBullPage() {
+  useEffect(() => {
+    document.title = "Red Bull - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import George from "../../assets/drivers/russell.avif";
 import UKFlag from "../../assets/country/united-kingdom-flag.avif";
 import RussellHelmet from "../../assets/helmets/russell-helmet.avif";
 
 export function GeorgeRussellPage() {
+  useEffect(() => {
+    document.title = "George Russell - F1 Driver for Mercedes";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Nico from "../../assets/drivers/hulkenberg.avif";
 import NicoHelmet from "../../assets/helmets/hulkenberg-helmet.avif";
 import GermanyFlag from "../../assets/country/germany-flag.avif";
 import { Header } from "../../components/header";
 
 export function NicoHulkenbergPage() {
+  useEffect(() => {
+    document.title = "Nico Hulkenberg - F1 Driver for Haas";
+  }, []);
   return (
     <div>
       <Header />

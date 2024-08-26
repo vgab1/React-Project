@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { Header } from "../components/header";
 import Lando from "../assets/drivers/norris.avif";
 import LandoHelmet from "../assets/helmets/norris-helmet.avif";
 import UKFlag from "../assets/country/united-kingdom-flag.avif";
 
+
 export function LandoNorrisPage() {
+  useEffect(() => {
+    document.title = "Lando Norris - F1 Driver for McLaren";
+  }, []);
   return (
     <div>
       <Header />

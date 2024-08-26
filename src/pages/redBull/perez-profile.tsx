@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import Sergio from "../../assets/drivers/perez.avif";
 import MexicoFlag from "../../assets/country/mexico-flag.avif";
 import SergioHelmet from "../../assets/helmets/perez-helmet.avif";
 
 export function SergioPerezPage() {
+  useEffect(() => {
+    document.title = "Sergio Perez - F1 Driver for Red Bull Racing";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { RbDrivers } from "./rb-drivers";
 import { RbProfile } from "./rb-profile";
 import { RbTeam } from "./rb-team";
 
 export function RbPage() {
+  useEffect(() => {
+    document.title = "RB - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

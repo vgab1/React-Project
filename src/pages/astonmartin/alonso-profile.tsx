@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Fernando from "../../assets/drivers/alonso.avif";
 import FernandoHelmet from "../../assets/helmets/alonso-helmet.avif";
 import SpainFlag from "../../assets/country/spain-flag.avif";
 import { Header } from "../../components/header";
 
 export function FernandoAlonsoPage() {
+  useEffect(() => {
+    document.title = "Fernando Alonso - F1 Driver for Aston Martin";
+  }, []);
   return (
     <div>
       <Header />

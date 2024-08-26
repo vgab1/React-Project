@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Logan from "../../assets/drivers/sargeant.avif";
 import LoganHelmet from "../../assets/helmets/sargeant-helmet.avif";
 import USFlag from "../../assets/country/united-states-flag.avif";
 import { Header } from "../../components/header";
 
 export function LoganSargeantPage() {
+  useEffect(() => {
+    document.title = "Logan Sargeant - F1 Driver for Williams";
+  }, []);
   return (
     <div>
       <Header />

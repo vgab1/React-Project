@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { MercedesDrivers } from "./mercedes-drivers";
 import { MercedesProfile } from "./mercedes-profile";
 import { MercedesTeam } from "./mercedes-team";
 
 export function MercedesPage() {
+  useEffect(() => {
+    document.title = "Mercedes - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

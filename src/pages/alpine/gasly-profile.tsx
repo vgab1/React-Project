@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Pierre from "../../assets/drivers/gasly.avif";
 import PierreHelmet from "../../assets/helmets/gasly-helmet.avif";
 import FranceFlag from "../../assets/country/france-flag.avif";
 import { Header } from "../../components/header";
 
 export function PierreGaslyPage() {
+  useEffect(() => {
+    document.title = "Pierre Gasly - F1 Driver for Alpine";
+  }, []);
   return (
     <div>
       <Header />

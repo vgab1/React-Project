@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import Max from "../../assets/drivers/verstappen.avif";
 import NetherlandsFlag from "../../assets/country/netherlands-flag.avif";
 import MaxHelmet from "../../assets/helmets/verstappen-helmet.avif";
 
 export function MaxVerstappenPage() {
+  useEffect(() => {
+    document.title = "Max Verstappen - F1 Driver for Red Bull Racing";
+  }, []);
   return (
     <div>
       <Header />

@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { Header } from "../components/header";
 import Oscar from "../assets/drivers/piastri.avif";
 import OscarHelmet from "../assets/helmets/piastri-helmet.avif";
 import AustraliaFlag from "../assets/country/australia-flag.png";
 
+
 export function OscarPiastriPage() {
+  useEffect(() => {
+    document.title = "Oscar Piastri - F1 Driver for McLaren";
+  }, []);
   return (
     <div>
       <Header />

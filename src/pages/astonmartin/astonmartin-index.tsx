@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import { Header } from "../../components/header";
 import { AstonMartinDrivers } from "./astonmartin-drivers";
 import { AstonMartinProfile } from "./astonmartin-profile";
 import { AstonMartinTeam } from "./astonmartin-team";
 
 export function AstonMartinPage() {
+  useEffect(() => {
+    document.title = "Aston Martin - F1 Racing Team";
+  }, []);
   return (
     <div>
       <Header />

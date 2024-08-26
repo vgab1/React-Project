@@ -2,7 +2,7 @@ import McLaren from "../assets/teams/mclaren-logo.avif";
 
 export function TeamInfo() {
   return (
-    <div>
+    <div className="p-4 md:p-8">
       <img src={McLaren} alt="McLaren Logo" className="w-60 mb-4" />
       <div className="grid grid-cols-2 gap-4 text-lg">
         <p className="font-bold">Full Team Name:</p>

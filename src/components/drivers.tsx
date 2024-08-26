@@ -6,7 +6,7 @@ export function Drivers() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col md:flex-row ">
+    <div className="flex flex-col md:flex-row justify-center">
       <div className="text-center left-6 bottom-6 border overflow-hidden relative hover:bg-black hover:text-white w-64 md:w-96">
         <div className="h-[500px] overflow-hidden">
           <img
