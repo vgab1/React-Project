@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Alexander from "../../assets/drivers/albon.avif";
-import Logan from "../../assets/drivers/sargeant.avif";
+import Franco from "../../assets/drivers/colapinto.avif";
 
 export function WilliamsDrivers() {
   const navigate = useNavigate();
@@ -25,15 +25,15 @@ export function WilliamsDrivers() {
       <div className="text-center left-[90px] bottom-6 border overflow-hidden relative hover:bg-black hover:text-white w-64 md:w-96">
         <div className="h-[500px] overflow-hidden">
           <img
-            src={Logan}
-            alt="Logan Sargeant"
+            src={Franco}
+            alt="Franco Colapinto"
             className="w-full h-full object-cover object-top transition duration-300 ease-in-out hover:scale-105 cursor-pointer"
-            onClick={() => navigate("/drivers/logan-sargeant")}
+            onClick={() => navigate("/drivers/franco-colapinto")}
           />
         </div>
         <div className="mt-10">
-          <p className="text-5xl font-semibold font-mono">2</p>
-          <p className="text-xl font-bold">Logan Sargeant</p>
+          <p className="text-5xl font-semibold font-mono">43</p>
+          <p className="text-xl font-bold">Franco Colapinto</p>
           <p className="text-md mb-10">Williams</p>
         </div>
       </div>

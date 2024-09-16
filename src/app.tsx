@@ -25,7 +25,7 @@ import { PierreGaslyPage } from "./pages/alpine/gasly-profile";
 import { EstebanOconPage } from "./pages/alpine/ocon-profile";
 import { WilliamsPage } from "./pages/williams/williams-index";
 import { AlexanderAlbonPage } from "./pages/williams/albon-profile";
-import { LoganSargeantPage } from "./pages/williams/sargeant-profile";
+import {FrancoColapintoPage} from "./pages/williams/colapinto-profile";
 import { KickSauberPage } from "./pages/kicksauber/kicksauber-index";
 import { ValtteriBottasPage } from "./pages/kicksauber/bottas-profile";
 import { ZhouGuanyuPage } from "./pages/kicksauber/zhou-profile";
@@ -136,8 +136,8 @@ const router = createBrowserRouter([
     element: <AlexanderAlbonPage />,
   },
   {
-    path: "/drivers/logan-sargeant",
-    element: <LoganSargeantPage />,
+    path: "/drivers/franco-colapinto",
+    element: <FrancoColapintoPage />,
   },
   {
     path: "/teams/kick-sauber",
